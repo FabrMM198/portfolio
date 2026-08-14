@@ -49,7 +49,7 @@ nav a:hover {
     padding-bottom: 0.5rem;
 }
 
-#btn {
+.btn {
     display: inline-block;
     background-color: bisque;
     color:#2565AE;
@@ -58,8 +58,47 @@ nav a:hover {
     transition: transform 0.2s ease;
 }
 
-#btn:hover {
+.btn:hover {
     background-color: #303952;
     color: bisque;
     transform: scale(1.1);
+}
+
+.inicio {
+    display: flex;
+    margin-left: 80px;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.botoes {
+    display: flex;
+    padding-top: 40px;
+    gap: 12px;
+}
+
+h1 {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 0px black;
+}
+
+h2 {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+    color: bisque;
+    font-weight: bold;
+    text-shadow: 4px 4px 0px black;
+}
+
+.titulo {
+    display: inline-block;
+    background-color: #303952;
+    padding: 40px 40px;
+    box-shadow: 5px 5px 0px black;
 }
