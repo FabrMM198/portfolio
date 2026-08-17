@@ -1,0 +1,27 @@
+.titulos {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 0px black;
+}
+
+.subtitulos {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+    color: bisque;
+    font-weight: bold;
+    text-shadow: 4px 4px 0px black;
+}
+
+.caixa_titulos {
+    display: inline-block;
+    background-color: #303952;
+    padding: 40px 44px;
+    box-shadow: 10px 10px 0px black;
+    text-align: center;
+}
+
+.caixa_titulos .titulos{
+    margin-bottom: 30px;
+}

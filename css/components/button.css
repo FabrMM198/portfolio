@@ -1,0 +1,25 @@
+.btn {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Fira Code", sans-serif;
+    display: inline-block;
+    background-color: bisque;
+    color:#2565AE;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px black;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #303952;
+    color: bisque;
+    transform: scale(1.1);
+}
+
+.botoes {
+    display: flex;
+    padding-top: 40px;
+    gap: 12px;
+}

@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2565AE;
+    width: 100%;
+    border-bottom: 10px solid black;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
