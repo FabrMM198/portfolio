@@ -4,6 +4,15 @@
     box-sizing: border-box; 
 }
 
+:root {
+    --header-height: 120px;
+}
+
+html {
+scroll-behavior: smooth;
+scroll-padding-top: var(--header-height);
+}
+
 .inicio {
     display: flex;
     flex-direction: column;
@@ -17,4 +26,12 @@
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 10px solid black;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }

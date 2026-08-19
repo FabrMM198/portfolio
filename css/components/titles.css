@@ -25,3 +25,14 @@
 .caixa_titulos .titulos{
     margin-bottom: 30px;
 }
+
+.titulo_terciario {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.subtitulos.-second {
+    text-shadow: none;
+    text-align: center;
+}

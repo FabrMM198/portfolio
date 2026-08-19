@@ -1,0 +1,8 @@
+.section.-second {
+    background-color: skyblue;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #2565AE;
+    min-height: calc(100vh - var(--header-height));
+    padding-top: 50px;
+    box-sizing: border-box;
+}
