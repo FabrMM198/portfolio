@@ -34,4 +34,5 @@ scroll-padding-top: var(--header-height);
     align-items: center;
     justify-content: center;
     gap: 100px;
+    width: 100%;
 }

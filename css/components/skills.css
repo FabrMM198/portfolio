@@ -1,6 +1,6 @@
 .caixa_skills {
     display: grid;
-    grid-template-columns: 380px 380px;
+    grid-template-columns: minmax(0, 380px) minmax(0, 380px);
     justify-content: center;
     column-gap: 60px;
     row-gap: 24px;
