@@ -1,0 +1,33 @@
+.caixa_sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    max-width: 100%;
+    padding: 0 40px;
+}
+
+.foto_sobre {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid black;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.texto_sobre {
+    display: flex;
+    flex-direction: column;
+    font-family: "Fira Code", sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+    width: 50%;
+}
+
+.texto_sobre .paragrafo {
+    padding-bottom: 10px;
+}
