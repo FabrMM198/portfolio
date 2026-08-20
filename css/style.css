@@ -43,3 +43,11 @@ scroll-padding-top: var(--header-height);
     justify-content: center;
     gap: 40px;
 }
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
